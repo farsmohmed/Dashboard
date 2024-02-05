@@ -32,8 +32,11 @@ body{
 }
 
 .porfile h2{
-    font-size: 20px;
+    font-size: 30px;
     text-transform: capitalize;
+    
+    
+    
     
 }
 
@@ -78,6 +81,7 @@ ul li a:hover, .active, .data-info .box:hover, td:hover{
     cursor: pointer;
 }
 
+
 @keyframes hoverAnimation {
     0% {
         transform: scale(1);
@@ -92,7 +96,7 @@ ul li a:hover, .active, .data-info .box:hover, td:hover{
 
 .log-out{
     position: absolute;
-    bottom: 0;
+    bottom: 5;
     width: 100%;
     
 
@@ -103,7 +107,8 @@ ul li a:hover, .active, .data-info .box:hover, td:hover{
 }
 
 ul li a i{
-    font-size: 30px;
+    font-size: 20px;
+    
 }
 
 .content{
@@ -184,6 +189,33 @@ th{
     background-color: gold;
     color: black;
 }
+
+@media screen and (max-width: 768px) {
+    .porfile h2{
+        font-size: 16px;
+        position: absolute;
+        padding: 70px;
+        
+    }
+
+    .menu{
+        height: 150vh;
+
+        
+    
+    }
+
+    .active{
+        width: 90%;
+    }
+
+}
+
+
+
+
+
+
 
 
 
